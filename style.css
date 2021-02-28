@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clearfix:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+.contentblock{
+    width:75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+    text-align: justify;
+}
+.main-text{
+    font-size: 15px;
+    font-variant: unset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 30px;
+    color:green;
+    margin-bottom: 10px;
+}
+h2{
+    font-variant:unset;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+.Image1-text{
+    font-size: 20px;
+    margin-top: 10px;
+    float:left;
+    padding-top:30px;
+    right: 10px;
+}
+.container{
+    width:1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.otherblock{
+    font-size: 20px;
+    width:25%;
+    float:left;
+}
+.authorblock{
+    padding-top: 10px;
+    border-top: 1px solid rgba(83, 180, 164, 0.822);
+    
+}
+.authorblock img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    top: 15px;
+    padding-right: 10px;
+}
+.date{
+    position:absolute;
+    top: 10px;
+    right: 40px;
+    font-style:unset bold;
+}
+.juhuimg{
+    height: 100px;
+    width: 100px;
+}
+.indiagateimg{
+    height:100px;
+    width:100px;
+}
